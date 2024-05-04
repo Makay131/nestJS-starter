@@ -82,3 +82,9 @@ $ nest g controller controller_name
 
 Create Service
 $ nest g service service_name
+
+to install mapped types such as PartialType
+$ npm i @nestjs/mapped-types -D
+
+for validation install these packages
+$ npm i class-validator class-transformer
